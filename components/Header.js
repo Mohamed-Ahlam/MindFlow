@@ -18,7 +18,7 @@ const Header = () => {
 
 const styles = StyleSheet.create({
   header: {
-    backgroundColor: "#FBFBFB", // Customize the header color
+    backgroundColor: "#FBFBFB", // DELETE LATER AND ADD THEME
     justifyContent: "space-between",
     paddingRight: 25,
     paddingLeft: 25,
