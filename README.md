@@ -48,3 +48,12 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+# tech stack 
+Backend: Express.js, SQL
+
+to run the express and check the server:
+- express file.js -- nodemon file.js
+
+Frontend: React Native, 
