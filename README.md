@@ -41,10 +41,6 @@ Take a breath, take control, and take care. MindFlow is here for you.
 
 ![App Screenshot](assets/images/presentation.jpg)
 
-![Alt text](assets/images/presentation.jpg?raw=true "Optional Title")
-
-![Alt text](assets/images/presentation.jpg "Optional Title")
-
 ## Get started
 
 1. Install dependencies
