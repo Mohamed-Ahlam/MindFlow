@@ -42,9 +42,9 @@ const Community = () => {
 
   return (
     <View style={styles.container}>
-      <FlatList                 // basically takes each item on the list and now u can display them however u want in the renderUser func u made
+      <FlatList
         data={users}
-        keyExtractor={(item) => item.login.uuid} // Unique key for each user
+        keyExtractor={(item) => item.login.uuid}
         renderItem={renderUser}
         contentContainerStyle={styles.list}
       />
