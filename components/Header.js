@@ -18,13 +18,13 @@ const Header = () => {
 
 const styles = StyleSheet.create({
   header: {
-    backgroundColor: "#FBFBFB", // DELETE LATER AND ADD THEME
+    backgroundColor: "#FBFBFB", // Add theme later
     justifyContent: "space-between",
     paddingRight: 25,
     paddingLeft: 25,
   },
   avatar: {
-    marginRight: 10, // Add some margin to position the avatar nicely
+    marginRight: 10,
   },
 });
 
