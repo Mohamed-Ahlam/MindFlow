@@ -1,10 +1,7 @@
 import { Stack } from "expo-router";
 
-// Handles Routing & Authentication  //
-
 export default function RootLayout() {
   return (
-    // screenOptions makes it so all the tabs.screen have the same style of no header
     <Stack
       screenOptions={{
         headerShown: false,
@@ -15,15 +12,3 @@ export default function RootLayout() {
     </Stack>
   );
 }
-
-
-/* 
-
-Login page
-
-qs 
-- in layout what 
-- how would login 
-
-
-*/
