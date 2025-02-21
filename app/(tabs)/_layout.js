@@ -8,7 +8,6 @@ export default function TabLayout() {
   return (
     <View style={styles.container}>
       <Header />
-      {/* screenOptions makes it so all the tabs.screen have the same style of no header */}
       <Tabs screenOptions={{ tabBarActiveTintColor: "#FE8235", headerShown: false }}>
         <Tabs.Screen
           name="(home)/index"
@@ -30,7 +29,7 @@ export default function TabLayout() {
 }
 
 const styles = StyleSheet.create({
-  container: { // U NEED THIS BC otherwise ur header and tabs will be the only thing showing also Wraps the entire layout with flex: 1 to make sure it takes up the full screen.
+  container: {
     flex: 1,
   },
 });
