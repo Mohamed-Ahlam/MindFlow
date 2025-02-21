@@ -8,7 +8,7 @@ Life can be overwhelming, but your mental health doesn't have to take a backseat
 With features like user login, guided meditation, mood tracking, journaling, a wellness hub to talk to other users, and curated resources, MindFlow is designed to help you prioritize yourself—one **Mindful** step at a time.  
 
 Take a breath, take control, and take care. MindFlow is here for you. 
-## ☛ Tech Stack ✦
+## ✦ Tech Stack
 
 ### Frontend
 
@@ -37,11 +37,14 @@ Take a breath, take control, and take care. MindFlow is here for you.
 
 **API Structure:** REST API 
 
-## Screenshots 
+## ✦ Screenshots 
 
 ![App Screenshot](assets/images/presentation.jpg)
 
-## Get started
+## ✦ Lessons Learned 
+
+
+## ✦ Get started
 
 1. Install dependencies
 
