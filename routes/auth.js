@@ -1,8 +1,7 @@
 const express = require('express')
 const router = express.Router()
-const db = require('../database') // now we have our connection with db
+const db = require('../database')
 
-// used to take what user inputed in form and then send that to the database so it can be saved
 router.post("/", (req, res) => {
   const { username, password } = req.body
   if (username && password) {
@@ -16,7 +15,6 @@ router.post("/", (req, res) => {
   res.end()
 });
 
-// get request to get all data from database and then itll send back
 router.get("/", async (req, res) => {
     const results = await db.promise().query(`SELECT * FROM User_info`);
     res.status(200).send(results[0])
@@ -25,10 +23,3 @@ router.get("/", async (req, res) => {
 
 
 module.exports = router;
-
-/* 
-
-1. make connection to database and make it possible to add username,password to it
-2. make front-end 
-
-*/
